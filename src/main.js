@@ -23,6 +23,7 @@ if (!window._POWERED_BY_QIANKUN__) {
 // 子组件的协议
 export async function bootstrap(props) {}
 export async function mount(props) {
+  console.log(props);
   render(props);
 }
 export async function unmount(props) {
